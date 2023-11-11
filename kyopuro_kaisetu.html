@@ -1,0 +1,23 @@
+---
+layout: default
+title: 競プロの解説
+---
+<h1>競プロの解説集</h1>
+<p>
+    ARC以上のところに解説をかけないので、こっちに書く。<br> 
+    解法に必要なアルゴリズムとかを隠してある。<br>
+    都合が良くなれば全部こっちに移すかも？
+</p>
+<ul>
+    {%- for post in site.posts -%}
+    {%- if post.layout == "kp-kaisetu" -%}
+    <li>
+        <h2><a href="{{ post.url }}"> {{ post.title }}</a></h2>
+        <details>
+            <summary>キーワード</summary>
+            {{ post.technique }}
+        </details>
+    </li>
+    {%- endif -%}
+    {%- endfor -%}
+</ul>
