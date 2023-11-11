@@ -1,5 +1,14 @@
 .current {
-  color: green;
+  color: red;
+}
+
+.menu {
+  background-color: #96e5ff;
+  display: flex;
+}
+
+.main-link {
+  flex: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */

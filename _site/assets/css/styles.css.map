@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../_sass/main.scss"],"names":[],"mappings":"AAAA;EACI","sourcesContent":[".current {\n    color: green;\n}"],"file":"styles.css"}
+{"version":3,"sourceRoot":"","sources":["../../_sass/main.scss"],"names":[],"mappings":"AAAA;EACI;;;AAEJ;EACI;EACA;;;AAEJ;EACI","sourcesContent":[".current {\n    color: red;\n}\n.menu {\n    background-color: #96e5ff;\n    display: flex;\n}\n.main-link {\n    flex: auto;\n}"],"file":"styles.css"}
