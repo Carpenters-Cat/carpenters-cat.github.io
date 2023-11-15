@@ -1,4 +1,5 @@
 future: true
+timezone: Asia/Tokyo
 plugins:
   - jekyll-feed
   - jekyll-sitemap
